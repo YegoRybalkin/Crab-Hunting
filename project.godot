@@ -11,6 +11,9 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 InputSetup="*res://scripts/core/input_setup.gd"
 UIManager="*res://scripts/core/ui_manager.gd"
 GameManager="*res://scripts/core/game_manager.gd"
+ExpeditionManager="*res://scripts/core/expedition_manager.gd"
+SceneTransitionManager="*res://scripts/core/scene_transition_manager.gd"
+HUD="*res://scenes/ui/hud.tscn"
 
 [rendering]
 

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BiomeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/core/biome_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rocky_coast"
+display_name = "Rocky Coast"
+difficulty = "Easy"
+possible_crabs = Array[String](["Common Shore Crab", "Fast Rock Crab", "Rare Blue Crab"])
+environmental_conditions = "Open visibility, calm tide pools"
+expedition_cost = 0
+discovered_percentage = 0.0
+unlocked = true
+scene_path = "res://scenes/biomes/rocky_coast.tscn"
