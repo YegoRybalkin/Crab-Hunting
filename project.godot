@@ -1,0 +1,18 @@
+config_version=5
+
+[application]
+
+config/name="Crab Hunting"
+run/main_scene="res://scenes/main_menu/main_menu.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[autoload]
+
+InputSetup="*res://scripts/core/input_setup.gd"
+UIManager="*res://scripts/core/ui_manager.gd"
+GameManager="*res://scripts/core/game_manager.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
